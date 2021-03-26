@@ -50,7 +50,7 @@ pygame.Surface.blit(window, rond, (792,500))
 lerectancle = pygame.Rect(190, 100, 200, 200)
 pygame.draw.rect(window, black,lerectancle )
 
-
+print("test")
 running = True
 while running:
     for event in pygame.event.get():
